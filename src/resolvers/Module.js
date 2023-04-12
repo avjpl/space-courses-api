@@ -1,5 +1,7 @@
 module.exports = {
   Module: {
-    // add Module resolvers here
+    durationInSeconds: ({ length }) => {
+      return length;
+    },
   },
 };
